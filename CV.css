@@ -1,0 +1,134 @@
+@font-face {
+    font-family: Kanit;
+    src: url(./Kanit-ExtraLight.ttf);
+}
+
+.container {
+   max-width: 940px;
+   margin: 0 auto;
+}
+
+.body {
+    font-family: Kanit;
+    margin: 0;
+    padding: 0;
+    background: #e70606;
+}
+
+.header {
+    height: 87px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.ureiw {
+    display: flex;
+    align-items: center;
+    height: 87px;
+    justify-content: space-between;
+}
+
+.nav__link {
+  
+    margin-right: 150px;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #828282;
+    text-decoration: none;
+}
+
+.nav__link:last-child {
+    margin-right: 0;
+}
+
+.border {
+    border: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.section {
+    height: 188px;
+}
+
+.name {
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: #070707;
+    margin: 0;
+    width: 123px;
+    height: 118px;
+}
+
+.pox {
+    margin: 0;
+    width: 155px;
+    height: 44px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
+.img {
+    background-image: url(./RU\ _\ ENG.png);
+    width: 20px;
+    height: 65px;
+}
+
+.wrapper {
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+}
+
+
+
+.section-two{
+    height: 471px;
+}
+.big-img {
+    width: 943.61px;
+    height: 387px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 49px;
+    background-image: url(./photo_2022-09-13_12-25-24.jpg);
+}
+
+.section-fri {
+    height: 506px;
+    background:#e5e5e5
+}
+
+.yan {
+    padding: 100px 0 17.60px 0;
+  
+   margin: 0;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+
+    /* Black */
+
+    color: #070707;
+
+}
+
+.text {
+    margin: 0 auto;
+    width: 485px;
+    height: 218px;
+}
+
+.text__aboutme {
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+
+}

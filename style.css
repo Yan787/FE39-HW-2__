@@ -1,0 +1,242 @@
+@font-face {
+    font-family: Poppins;
+    src: url(./Poppins-ThinItalic.ttf);
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(./OpenSans-MediumItalic.ttf);
+}
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+body {
+    font-family: Poppins;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(57, 52, 68);
+
+}
+
+.header {
+    background-color: white;
+    height: 135px;
+    padding: 0 88px 0 105px
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    height: 135px;
+    justify-content: space-between;
+}
+
+.nav__link, .controls__link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+    text-decoration: none;
+
+    margin-right: 70px;
+}
+
+.nav__link:last-child {
+    margin-right:0 ;
+}
+
+.controls__link {
+    margin-right: 50px;
+}
+
+.controls__link-btn {
+ 
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    width: 157px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 100px;
+}
+
+.controls__link-btn span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.header__controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+.section {
+    overflow: hidden;
+    background-image: url(./BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.section__wrapper {
+    padding: 60px 0 213px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.description__bg {
+    height: 519px;
+    width: 628px;
+    background: url(./IMG.png);
+    background-repeat: no-repeat
+}
+
+.section__description {
+    max-width: 529px;
+}
+
+.description__headline {
+    margin: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+    
+}
+
+.description__headline span {
+    font-family: OpenSans; 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+}  
+
+.description__text {
+    margin: 0;
+    margin-top: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.description__btn {
+    margin-top: 30px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 157px;
+    height: 54px;
+    text-decoration: none;
+    border-radius: 100px;
+}
+
+.description__btn span {
+    color:  linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    font-weight: 900;
+}
+
+
+
+
+
+
+.section-dva {
+    background: #FFFFFF;
+  
+    height: 750px;
+}
+
+.section-dva__wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.img__img {
+    width: 629px;
+    height: 393px;
+    margin-right: 36px;
+    background: url(./Layer\ 2.png);
+    background-repeat: no-repeat
+}
+
+.text__h {
+    margin: 0;
+    width: 315px;
+    height: 65px;
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 65px;
+    
+}
+
+.text__h span {
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent
+}
+
+.text__p {
+    margin: 0;
+    margin-top: 36px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #333333;
+}
+
+.text__btn {
+    margin-top: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 157px;
+    height: 54px;
+    
+
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.section-dva__wrapper {
+    padding-top: 30px;
+}
