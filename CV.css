@@ -4,8 +4,8 @@
 }
 
 .container {
-   max-width: 940px;
-   margin: 0 auto;
+    max-width: 940px;
+    margin: 0 auto;
 }
 
 .body {
@@ -32,7 +32,7 @@
 }
 
 .nav__link {
-  
+
     margin-right: 150px;
     font-size: 18px;
     line-height: 22px;
@@ -80,15 +80,16 @@
 
 .wrapper {
     display: flex;
-    align-items:baseline;
+    align-items: baseline;
     justify-content: space-between;
 }
 
 
 
-.section-two{
+.section-two {
     height: 471px;
 }
+
 .big-img {
     width: 943.61px;
     height: 387px;
@@ -101,13 +102,13 @@
 
 .section-fri {
     height: 506px;
-    background:#e5e5e5
+    background: #e5e5e5
 }
 
 .yan {
     padding: 100px 0 17.60px 0;
-  
-   margin: 0;
+
+    margin: 0;
     font-size: 34px;
     line-height: 42px;
     text-align: center;
@@ -184,14 +185,49 @@
 .wrapper__skills:nth-child(1) {
     background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
 }
+
 .wrapper__skills:nth-child(2) {
     background: radial-gradient(76% 75.63% at 32.97% 22.44%, rgba(66, 51, 37, 0.98) 0%, #1C0A00 100%);
 }
+
 .wrapper__skills:nth-child(3) {
     background: radial-gradient(76% 75.63% at 32.97% 22.42%, rgba(68, 47, 85, 0.98) 0%, #12002C 100%);
 }
 
+
+
+
+.skills-lol {
+    display: block;
+}
+
+.box-box {
+    position: relative;
+    display: flex;
+
+}
+
+.box {
+    width: 89px;
+    height: 89px;
+
+}
+
+.box:nth-child(2) {
+    width: 89px;
+    height: 89px;
+
+    position: absolute
+}
+
+
+.flex-box {
+    width: 86px;
+}
+
+
 .skills__text {
+    margin-top: 30px;
     font-size: 14px;
     line-height: 17px;
     text-align: center;
@@ -199,13 +235,55 @@
     color: #828282;
 }
 
-.skills__star {
+.skills__star {}
 
-}
 .wrapper-five {
-    padding-top: 83px;
+    padding-top: 41px;
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
     margin-bottom: 110px;
 }
+
+.section-six {
+    background-color: #e5e5e5;
+}
+
+.section-six__portfol {
+    margin: 0;
+    padding: 130px 0 47px;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    pa color: #070707;
+}
+
+.portfol__text {
+    margin: 0;
+    padding: 45px 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.footer__contacts {
+    margin: 0;
+    margin: 114px 0 20px;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #070707;
+}
+
+.footer__text {
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #070707;
+}
+
