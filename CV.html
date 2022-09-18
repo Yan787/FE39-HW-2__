@@ -14,10 +14,10 @@
                 <div class="ureiw">
                     <nav class="header__nav">
                         <a class="nav__link" href="#">Home</a>
-                        <a class="nav__link" href="#">About me</a>
-                        <a class="nav__link" href="#">Skills</a>
-                        <a class="nav__link" href="#">Portfolio</a>
-                        <a class="nav__link" href="#">Contacts</a>
+                        <a class="nav__link" href="#123">About me</a>
+                        <a class="nav__link" href="#1234">Skills</a>
+                        <a class="nav__link" href="#345">Portfolio</a>
+                        <a class="nav__link" href="#456">Contacts</a>
                     </nav>
                 </div>
                 <div class="border"></div>
@@ -45,7 +45,7 @@
         </section>
         <section class="section-fri">
             <div class="container">
-                <h2 class="yan">About me</h2>
+                <h2 id="123" class="yan">About me</h2>
             
                 
                     <div class="text">
@@ -62,7 +62,7 @@
         </section>
         <section class="section-four">
             <div class="container">
-                <h2 class="section-four__skills">Skills<h2>
+                <h2 id="1234" class="section-four__skills">Skills<h2>
                 <p class="section-four__programs">I work in such programs as</p>
                 <div class="section-four__wrapper">
                     <div class="wrapper__skills">
@@ -95,39 +95,39 @@
             <div class="container">
                 <div class="wrapper-five">
                     <div class="skills__star">
-                        <img src="Star.png">
-                        <img src="Star.png">
-                        <img src="Star.png">
-                        <img src="Star.png">
-                        <img src="Star not.png">
+                      <div class="active"></div>
+                      <div class="active"></div>
+                      <div class="active"></div>
+                      <div class="active"></div>
+                      <div class="disable"></div>
                     </div>
                     <div class="skills__star">
-                        <img src="Star.png">
-                        <img src="Star.png">
-                        <img src="Star.png">
-                        <img src="Star not.png">
-                        <img src="Star not.png">
-                    </div>
-                    <div class="skills__star">
-                        <img src="Star.png">
-                        <img src="Star.png">
-                        <img src="Star.png">
-                        <img src="Star.png">
-                        <img src="Star not.png">
-                    </div>
-                    <div class="skills__star">
-                        <img src="Star.png">
-                        <img src="Star.png">
-                        <img src="Star.png">
-                        <img src="Star.png">
-                        <img src="Star not.png">
-                    </div>
+                        <div class="active"></div>
+                        <div class="active"></div>
+                        <div class="active"></div>
+                        <div class="disable"></div>
+                        <div class="disable"></div>
+                      </div>
+                      <div class="skills__star">
+                        <div class="active"></div>
+                        <div class="active"></div>
+                        <div class="active"></div>
+                        <div class="active"></div>
+                        <div class="disable"></div>
+                      </div>
+                      <div class="skills__star">
+                        <div class="active"></div>
+                        <div class="active"></div>
+                        <div class="active"></div>
+                        <div class="active"></div>
+                        <div class="disable"></div>
+                      </div>
                 </div>
             </div>
         </section>
         <section class="section-six">
             <div class="container">
-                <h2 class="section-six__portfol">Portfolio</h2>
+                <h2 id="345" class="section-six__portfol">Portfolio</h2>
                
                 <div class="portfol__wrapper">
                     <img src="./Слой 8.png"> 
@@ -145,16 +145,27 @@
         </section>
         <footer class="footer">
             <div class="container">
-                <h2 class="footer__contacts">Contacts</h2>
+                <h2 id="456" class="footer__contacts">Contacts</h2>
                 <p class="footer__text">Want to know more or just chat? 
                     You are welcome!</p>
+                <div class="footer__wrapper">
                     <a 
-                    href=""
+                    href="https://getbootstrap.com/"
                     target="_blank"
-                    class="btn btn-primary"
-                  >
-                    <samp>Send message</samp>
-                  </a>
+                    class="footer__btn"
+                    >
+                        <span>Send message</span>
+                    </a>
+                </div>
+                <a class="footer__css" href="#" target="_blank">
+                    <img class="footer__telegram" target="_blank" src="./telegram.jpg" >
+                    <img class="footer__telegram" target="_blank" src="./инст.png">
+                </a>
+                <div class="footer__terms">
+                    <p class="terms">Don't Like me on LinkedIn, Instagram, Behance, Dribble. I don't heve this
+                </div>
+                </p>
+            </div>
         </footer>
     </main>
 </body>
