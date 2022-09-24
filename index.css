@@ -1,0 +1,160 @@
+@font-face {
+    font-family: Larsseit;
+    src: url(./Larsseit-ThinItalic.woff2);
+}
+
+.body {
+    font-family: Larsseit;
+    margin: 0;
+}
+
+.contener {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 0 131px 0 178px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: -0.035em;
+    text-decoration: none;
+    color: #62D0DF;
+    margin: 0;
+}
+
+.header__nav {
+    height: 13px;
+    width: 233px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__btn {
+    
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #22356F;
+}
+
+.header__btn {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #62D0DF;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.header__btn span {
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+
+.header__border {
+    border-bottom: 1px #000000;
+    
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    left: 754px;
+    top: 62px;
+
+    background: #F4F9E2;
+    box-shadow: inset 0px -1px 0px #22356F;
+}
+
+
+
+
+.section-one {
+    margin: 0 0 0 178px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo-two{
+    margin: 0;
+    margin-top: 174px;
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: -0.035em;
+    text-decoration: none;
+    color: #62D0DF;
+    height: 64px;
+}
+
+.section__text {
+    width: 512px;
+    height: 167px;
+    margin: 0;
+    font-size: 48px;
+    line-height: 53px;
+    letter-spacing: -0.035em;
+    margin-bottom: 19px;
+    color: #22356F;
+}
+
+.section__typography {
+    width: 469px;
+    height: 161px;
+    margin: 0;
+    font-size: 24px;
+    line-height: 42px;
+    margin-bottom: 63px;
+    color: #22356F;
+}
+
+.wraper-btn {
+    position: relative;
+    display: flex;
+    align-items: baseline;
+}
+
+.section__btn {
+    width: 150px;
+    height: 50px;
+    background: #F9B640;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 38px;
+}
+
+.section__btn span {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.section__btn-two {
+    font-size: 16px;
+    color: #F9B640;
+    width: 150px;
+    height: 43px;
+    text-decoration: none;
+}
+
+.img {
+    background-image: url(./фон.png);
+    width: 808px;
+    height: 545px;
+    background-repeat: no-repeat;
+}
