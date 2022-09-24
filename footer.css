@@ -1,0 +1,115 @@
+@font-face {
+    font-family: poppins;
+    src: url(./Poppins-ThinItalic.ttf);
+}
+
+
+
+.body {
+    font-family: poppins;
+    margin: 1200px;
+    margin: 0 auto;
+}
+
+
+.footer {
+    background-color: #151515;
+    padding: 0 51px 0 80px;
+    overflow: hidden;
+}
+
+.footer__wraper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo {
+    background-repeat: no-repeat;
+    margin: 81px 0 34px 0;
+    Width: 115.22px ;
+    Height: 24.61px;
+    background-image: url(./Logo.png);
+}
+
+.footer__text {
+    margin: 0;
+    Width: 369px;
+    Height: 80px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #A2A2A2;
+}
+
+.footer__message {
+    display: flex;
+    justify-content: space-between;
+    width: 106px;
+    height: 17px;
+}
+
+.color {
+    color: #ffffff;
+}
+
+.footer__dop {
+    height: 24px;
+    margin: 0;
+    margin-top: 70px;
+    font-weight: 400;
+    font-size: 12px;
+    
+    color: #989898;
+   
+}
+
+.img {
+    margin-top: 69px;
+    background-image: url(./Company\ Links\ About.png);
+    width: 170px;
+    height: 235px;
+    background-repeat: no-repeat;
+}
+
+.Contact-Us {
+    width: 226px;
+    height: 158px;
+    background-image: url(./Contact\ Us\ \(+55\)\ 254.png);
+    margin-top: 69px;
+    background-repeat: no-repeat;
+}
+
+.DownloadApp {
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #A2A2A2;
+    height: 24px;
+    margin-top: 23px;
+
+}
+
+.CoinBase {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 69px 0 31px 0;
+    color: #d8d4d4;
+}
+
+.wraper-square {
+    width: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.square {
+    width: 70px;
+    height: 70px;
+    background-color: #C4C4C4;
+}
