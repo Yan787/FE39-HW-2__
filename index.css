@@ -14,6 +14,7 @@
 }
 
 .header {
+    position: relative; 
     padding: 0 131px 0 178px;
     height: 62px;
     display: flex;
@@ -71,7 +72,7 @@
     position: absolute;
     width: 50px;
     height: 5px;
-    left: 754px;
+    left: 664px;
     top: 62px;
 
     background: #F4F9E2;
@@ -153,8 +154,355 @@
 }
 
 .img {
-    background-image: url(./фон.png);
-    width: 808px;
-    height: 545px;
+    transform: translateY(-52px);
+    position: relative;
+    background-image: url(./Mask\ Group.png);
+    width:  734px;
+    height: 728px;
     background-repeat: no-repeat;
+}
+
+
+
+
+.thrive {
+    background: #62D0DF;
+    display: flex;
+}
+
+.thrive__wraper {
+    margin: 0 0 0 178px;
+}
+
+.thrive__header {
+    margin: 0;
+    margin: 153px 0 75px 0;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.thrive__text {
+    width: 555px;
+    height: 196px;
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 92px;
+}
+
+.thrive__text span {
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.thrive__img {
+    transform: translateX(310px);
+    background-image: url(./christopher-campbell-40367.jpg);
+    width: 525px;
+    height: 604px;
+}
+
+
+
+
+.ABOUTUS {
+    padding: 0 484px 0 106px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ABOUTUS__header {
+    margin: 0;
+    transform: translateY(-50px);
+    width: 98px;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #22356F;
+}
+
+.ABOUTUS__text {
+    margin: 0;
+    margin: 150px 0 79px 0;
+    width: 529px;
+    height: 210px;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.005em;
+
+    color: #22356F;
+}
+
+.ABOUTUS__HELP {
+    margin: 0;
+    margin-bottom: 21px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: rgba(34, 53, 111, 0.5);
+}
+
+
+
+
+.Services {
+    display: flex;
+}
+
+.Services__square {
+    
+    width: 395px;
+    height: 360px;
+    background: #FFE2DE;
+    margin-bottom: 120px;
+}
+
+.border {
+    margin: 72px 0 0 52px;
+    width: 255px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.Services__square span {
+    margin-top: 23px;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+
+    color: #FFFFFF;
+}
+
+.Services__square span::before {
+    content: url(./0\ 2.png);
+    display: inline-block;
+    transform: translate(-14px, -9px);
+    width: 9px;
+    height: 9px;
+    
+}
+
+.Services__square:nth-child(2) {
+    background: #C4E769;
+}
+
+.Services__square:nth-child(3) {
+    background: #62D0DF;
+}
+
+.Services__square:nth-child(4) {
+    background: #0052C1;
+}
+
+
+
+
+.blog {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.blog__mega-sguares {
+    box-sizing: border-box;
+    width: 522px;
+    height: 522px;
+    padding: 0 70px 0 70px;
+    background: #22356F;
+}
+
+.border-two {
+    box-sizing: border-box;
+    padding: 96px 0 0 0px;
+    width: 381px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.blog__mega-sguares span {
+    position: relative;
+    display: flex;
+    top: 30px;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+}
+
+.blog__mega-sguares span::before {
+    content: url(./0\ 2.png);
+    width: 12px;
+    height: 12px;
+    margin-right: 20px;
+    
+}
+
+.blog__mega-sguares:nth-child(2) {
+    background: #0052C1;
+}
+.blog__mega-sguares:nth-child(3) {
+    background-image: url(./фон.jpg);
+    background-size: cover;
+}
+.blog__mega-sguares:nth-child(4) {
+    background: #62D0DF;
+}
+.blog__mega-sguares:nth-child(5) {
+    background: #DEE1FF;
+}
+.blog__mega-sguares:nth-child(6) {
+    background: #8F00FF;
+}
+
+
+
+
+
+
+.section-seven {
+    margin-top: 22px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-seven__frame {
+    box-sizing: border-box;
+    padding:55px 77px 37px 105px;
+    width: 522px;
+    height: 280px;
+}
+
+.frame__header {
+    margin: 0;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: -0.03em;
+    margin-bottom: 28px;
+    color: #22356F;
+}
+
+.frame__text {
+    margin: 0;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    color: rgba(34, 53, 111, 0.5);
+}
+
+
+
+
+
+
+.section-eight {
+    margin: 0 175px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-eight__img {
+    background-image: url(./bob.jpg);
+    width: 480px;
+    height: 800px;
+}
+
+.wraper__header {
+    margin: 0;
+    margin-top: 103px;
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+
+    color: #22356F;
+}
+
+.wraper__text {
+    margin: 0;
+    margin-top: 225px;
+    width: 676px;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.01em;
+
+    color: #22356F;
+}
+
+.wraper__btn {
+    margin: 0;
+    margin-top: 142px;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    color: #FAB63E;
+}
+
+
+
+
+
+
+.CONTACTUS {
+    display: flex;
+}
+
+.CONTACTUS__wraper {
+    padding: 0 201px 0 180px;
+    background: #22356F;
+    width: 704px;
+}
+
+.CONTACTUS__our {
+    margin: 0;
+    margin-top: 103px;
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+}
+
+.CONTACTUS__header {
+    margin: 0;
+    margin-top: 230px;
+    font-size: 64px;
+    line-height: 94px;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+}
+
+.CONTACTUS__text {
+    margin: 0;
+    margin-top: 75px;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.005em;
+    width: 579px;
+    color: #FFFFFF;
+}
+
+.CONTACTUS__btn {
+    margin: 0;
+    margin-top: 64px;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    color: #62D0DF;
+}
+
+.CONTACTUS__img {
+    background-image: url(./niga.jpg);
+    width: 480px;
+    height: 800px;
 }
