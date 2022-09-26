@@ -506,3 +506,88 @@
     width: 480px;
     height: 800px;
 }
+
+
+
+
+
+.footer {
+    display: flex;
+}
+
+.footer__img {
+    background-image: url(./niga\ 2.jpg);
+    width: 570px;
+    height: 380px;
+    justify-content: space-between;
+  
+}
+
+.footer__wraper {
+    display: flex;
+    justify-content: space-around;
+    width: 1009px;
+    margin: 98px -46px 0 30px;
+}
+
+
+.footer__header {
+    
+    margin: 0;
+    width: 207px;
+    height: 48px;
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+    color: #22356F;
+}
+
+.footer__text {
+    margin: 0;
+    width: 207px;
+    height: 65px;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: -0.006em;
+    color: rgba(34, 53, 111, 0.5);
+}
+
+.text__indent {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: -0.006em;
+    color: rgba(34, 53, 111, 0.5);
+}
+
+.text__indent span {
+    text-decoration: none;
+   color: #006DFF;
+}
+
+
+
+
+.footer__line {
+    display: block;
+    width: 1575px;
+    height: 80px;
+    background: #62D0DF;
+}
+
+.footer__line span {
+    position: absolute;
+    margin: 32px 0 0 194px;
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+}
+
+.footer__line span::before {
+    content: url(./©.png);
+    width: 9px;
+    height: 12px;
+    margin-right: 6px;
+}
