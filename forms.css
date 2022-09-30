@@ -1,0 +1,36 @@
+.wraper {
+    width: 808px;
+    height: 351px;
+    background-color: #ffffff;
+    border-radius: 37px;
+    margin: 100px auto;
+}
+
+.header {
+    margin: 0;
+    margin-bottom: 17px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+
+    color: #371030;
+}
+
+.background {
+    
+    display: inline-block;
+    background-image: url(./cover9\ 1.jpg);
+    width: 526px;
+    height: 351px;
+    background-size: cover;
+    
+}
+
+
+
+
+
+
+
