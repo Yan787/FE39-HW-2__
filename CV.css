@@ -17,6 +17,29 @@
 
 
 
+
+@media screen and (max-width: 925px) {
+    body .container {
+        margin: 70px;
+    }
+    body .nav__link {
+        margin-right: 118px;
+    }
+    body .img {
+        display: none;
+    }
+    body .big-img {
+        width: 766.61px;
+    }
+    body .section-four__wrapper {
+        justify-content: space-between;
+    }
+    body .img_size {
+        height: 410px;
+    }
+}
+    
+
 @media screen and (max-width: 375px) {
     .container {
         margin: 0 auto;
@@ -78,9 +101,6 @@
         height: 171px;
     }
 }
-
-
-
 
 
 
