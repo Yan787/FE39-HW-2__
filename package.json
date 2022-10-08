@@ -1,0 +1,24 @@
+{
+  "name": "fe39-hw-2__",
+  "version": "1.0.0",
+  "source": "src/forms2.html",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   "start": "parcel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yan787/FE39-HW-2__.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yan787/FE39-HW-2__/issues"
+  },
+  "homepage": "https://github.com/Yan787/FE39-HW-2__#readme",
+  "dependencies": {
+    "parsel": "^0.3.0",
+    "sass": "^1.55.0"
+  }
+}

@@ -1,0 +1,66 @@
+.page {
+    width: 1108px;
+    height: 1435px;
+    background-color: #ffff;
+    margin: 100px auto;
+    padding: 150px;
+    box-sizing: border-box;
+}
+
+.header {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #424242;
+    width: 282px;
+    height: 34px;
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.text {
+    margin: 84px 0 32px 0;
+    width: 300px;
+    height: 34px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+
+    color: #424242;
+}
+
+.text_tel {
+    margin: 8px 0 50px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 125%;
+    display: flex;
+    align-items: center;
+    color: #424242;
+}
+
+.text_email {
+    margin: 8px 0 30px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 125%;
+    display: flex;
+    align-items: center;
+    color: #424242;
+}
+
+.payment {
+    margin: 0;
+    margin: 69px 0 38px 0;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+
+    color: #424242;
+}
