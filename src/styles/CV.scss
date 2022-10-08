@@ -144,8 +144,9 @@
 
 
 @media screen and (max-width: 375px) {
-    .container {
-        margin: 0 auto; !important
+    body .wrapper {
+        
+        margin: 0 auto;
     }
     body .wrapper {
         display: block;
@@ -396,17 +397,42 @@
     justify-content: space-around;
 }
 
-.wrapper__skills:nth-child(1) {
-    background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
+.box1 {
+
+    width: 89px;
+    height: 89px;
+    background-image: url(/bleee.svg);
 }
 
-.wrapper__skills:nth-child(2) {
-    background: radial-gradient(76% 75.63% at 32.97% 22.44%, rgba(66, 51, 37, 0.98) 0%, #1C0A00 100%);
+@mixin box ($url) {
+    width: 89px;
+    height: 89px;
+    background-image: $url;
 }
 
-.wrapper__skills:nth-child(3) {
-    background: radial-gradient(76% 75.63% at 32.97% 22.42%, rgba(68, 47, 85, 0.98) 0%, #12002C 100%);
+.box1 {
+    @include box (url(/bleee.svg))
 }
+.box11 {
+    @include box (url(/Vector1.png))
+}
+.box2 {
+    @include box (url(/фон2.png))
+}
+.box22 {
+    @include box (url(/Vecto2.png))
+}
+.box3 {
+    @include box (url(/123123.svg))
+}
+.box33 {
+    @include box (url(/Vector3.png))
+}
+.box4 {
+    @include box (url(/photo_2022-09-15_14-35-28.jpg))
+}
+
+
 
 
 
@@ -471,7 +497,7 @@
 }
 
 .wrapper-five {
-    padding-top: 12px;;
+    padding-top: 12px;
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
@@ -488,9 +514,19 @@
     font-size: 34px;
     line-height: 42px;
     text-align: center;
-    pa color: #070707;
+    color: #070707;
 }
 
+.img_size:nth-child(1) {
+    background-image: url(/Слой\ 8.png);
+}
+.img_size:nth-child(2) {
+    background-image: url(/reebok_web.png)
+}
+.img_size:nth-child(3) {
+    background-image: url(/web.png)
+}
+    
 .portfol__text {
     margin: 0;
     padding: 45px 0 100px;
@@ -563,17 +599,24 @@
     margin: 0 auto;
 }
 
+.footer__telegram {
+    background-image: url(/telegram.jpg);
+}
+
+.footer__telegram-box {
+    background-image: url(/инст.png);
+}
+
 .footer__terms {
     width: 327px;
     margin: 0 auto;
 }
 
-.terms {    
+.terms {
+
     margin: 45px 0 123px;
     font-size: 14px;
     line-height: 17px;
     text-align: center;
-
     color: #828282;
-}
-
+} 
