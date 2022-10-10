@@ -1,6 +1,6 @@
 @font-face {
     font-family: Kanit;
-    src: url(./Kanit-ExtraLight.ttf);
+    src: url(/src/Kanit-ExtraLight.ttf);
 }
 
 .container {
@@ -282,7 +282,7 @@
 }
 
 .img {
-    background-image: url(./RU\ _\ ENG.png);
+    background-image: url(/src/RU\ _\ ENG.png);
     width: 20px;
     height: 65px;
 }
@@ -306,7 +306,7 @@
     align-content: center;
     justify-content: center;
     margin-top: 49px;
-    background-image: url(./photo_2022-09-13_12-25-24.jpg);
+    background-image: url(/src/photo_2022-09-13_12-25-24.jpg);
 }
 
 .section-fri {
@@ -478,14 +478,14 @@
 }
 
 .active {
-    background-image: url(./Star\ aa.png);
+    background-image: url(/src/Star\ aa.png);
     width: 20px;
     height: 20px;
     margin: 0 9px ;
 }
 
 .disable {
-    background-image: url(./Star\ not.png);
+    background-image: url(/src/Star.png);
     width: 20px;
     height: 20px;
     margin: 0 9px ;
