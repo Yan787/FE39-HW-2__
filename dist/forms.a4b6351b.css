@@ -1,0 +1,19 @@
+.wraper {
+  width: 808px;
+  height: 351px;
+  background-color: #fff;
+  border-radius: 37px;
+  margin: 100px auto;
+}
+
+.header {
+  letter-spacing: .04em;
+  color: #371030;
+  margin: 0 0 17px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+/*# sourceMappingURL=forms.a4b6351b.css.map */
