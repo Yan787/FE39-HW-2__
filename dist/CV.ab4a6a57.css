@@ -246,7 +246,7 @@
 
 .nav__link {
   color: #828282;
-  margin-right: 150px;
+  margin-right: 160px;
   font-size: 18px;
   line-height: 22px;
   text-decoration: none;
@@ -274,6 +274,10 @@
   line-height: 59px;
 }
 
+.nameyan, .media {
+  margin: 0;
+}
+
 .pox {
   width: 155px;
   height: 44px;
@@ -284,14 +288,16 @@
 }
 
 .img {
-  width: 20px;
+  width: 15px;
   height: 65px;
   background-image: url("RU _ ENG.eca391e1.png");
+  background-size: cover;
 }
 
 .wrapper {
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
+  margin: 45px 0;
   display: flex;
 }
 
@@ -304,12 +310,10 @@
   height: 387px;
   background-image: url("photo_2022-09-13_12-25-24.92145089.jpg");
   place-content: center;
-  margin-top: 49px;
   display: flex;
 }
 
 .section-fri {
-  height: 506px;
   background: #e5e5e5;
 }
 
@@ -317,7 +321,7 @@
   text-align: center;
   color: #070707;
   margin: 0;
-  padding: 100px 0 17.6px;
+  padding: 72px 0 34.6px;
   font-size: 34px;
   line-height: 42px;
 }
@@ -331,7 +335,7 @@
 .text__aboutme {
   text-align: center;
   color: #070707;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
   font-size: 18px;
   line-height: 22px;
 }
@@ -458,7 +462,7 @@
 .disable {
   width: 20px;
   height: 20px;
-  background-image: url("Star.cfb465ed.png");
+  background-image: url("Star not.a6134565.png");
   margin: 0 9px;
 }
 
@@ -488,15 +492,15 @@
 }
 
 .img_size:nth-child(1) {
-  background-image: url("Слой 8.4ed8b416.png");
+  background-image: url("Слой 8.93cce04f.png");
 }
 
 .img_size:nth-child(2) {
-  background-image: url("reebok_web.45b7ed74.png");
+  background-image: url("reebok_web.1e3b274f.png");
 }
 
 .img_size:nth-child(3) {
-  background-image: url("web.fc4d14a4.png");
+  background-image: url("web.ef417538.png");
 }
 
 .portfol__text {
@@ -564,11 +568,11 @@
 }
 
 .footer__telegram {
-  background-image: url("telegram.02cac884.jpg");
+  background-image: url("telegram.2f38d3d3.jpg");
 }
 
 .footer__telegram-box {
-  background-image: url("инст.31db83a0.png");
+  background-image: url("инст.2b13d143.png");
 }
 
 .footer__terms {

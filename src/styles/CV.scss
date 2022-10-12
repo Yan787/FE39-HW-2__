@@ -242,7 +242,7 @@
 
 .nav__link {
 
-    margin-right: 150px;
+    margin-right: 160px;
     font-size: 18px;
     line-height: 22px;
 
@@ -272,6 +272,14 @@
     height: 118px;
 }
 
+.nameyan {
+    margin: 0;
+}
+
+.media {
+    margin: 0;
+}
+
 .pox {
     margin: 0;
     width: 155px;
@@ -283,13 +291,16 @@
 
 .img {
     background-image: url(/src/RU\ _\ ENG.png);
-    width: 20px;
+    width: 15px;
     height: 65px;
+    background-size: cover;
+    
 }
 
 .wrapper {
     display: flex;
-    align-items: baseline;
+    margin: 45px 0;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -305,17 +316,17 @@
     display: flex;
     align-content: center;
     justify-content: center;
-    margin-top: 49px;
+ 
     background-image: url(/src/photo_2022-09-13_12-25-24.jpg);
 }
 
 .section-fri {
-    height: 506px;
+  
     background: #e5e5e5
 }
 
 .yan {
-    padding: 100px 0 17.60px 0;
+    padding: 72px 0 34.6px 0;
 
     margin: 0;
     font-size: 34px;
@@ -335,7 +346,7 @@
 }
 
 .text__aboutme {
-    margin-bottom: 40px;
+    margin-bottom: 24px;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
@@ -390,7 +401,7 @@
     justify-content: space-around;
 }
 .section-four__wrapper {
-    margin: 0;
+    margin:  0;
     margin-top: 83px;
     display: flex;
     align-items: flex-start;
@@ -485,7 +496,7 @@
 }
 
 .disable {
-    background-image: url(/src/Star.png);
+    background-image: url(/src/styles/Star\ not.png);
     width: 20px;
     height: 20px;
     margin: 0 9px ;
@@ -518,13 +529,13 @@
 }
 
 .img_size:nth-child(1) {
-    background-image: url(/Слой\ 8.png);
+    background-image: url(/src/styles/Слой\ 8.png);
 }
 .img_size:nth-child(2) {
-    background-image: url(/reebok_web.png)
+    background-image: url(/src/styles/reebok_web.png)
 }
 .img_size:nth-child(3) {
-    background-image: url(/web.png)
+    background-image: url(/src/styles/web.png)
 }
     
 .portfol__text {
@@ -600,11 +611,11 @@
 }
 
 .footer__telegram {
-    background-image: url(/telegram.jpg);
+    background-image: url(/src/styles/telegram.jpg);
 }
 
 .footer__telegram-box {
-    background-image: url(/инст.png);
+    background-image: url(/src/styles/инст.png);
 }
 
 .footer__terms {
