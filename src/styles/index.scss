@@ -1,0 +1,181 @@
+*{padding: 0; margin: 0;}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(./OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+body {
+    font-family: OpenSans;
+}
+
+.header {
+    background: #000000;
+    padding: 0 170px 0 115px;
+    height: 75px;
+
+    &__containe {
+        width: 1223px;
+        margin: 0 auto;
+    }
+    &__wraper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__wraper-it {
+        display: flex;
+    }
+    &__logo-AX {
+        background-image: url(/src/styles/AXIT\ \(1\).svg);
+        width: 33px;
+        height: 30px;
+        background-repeat: no-repeat;
+    }
+    &__logo-IT {
+        background-image: url(/src/styles/AXIT\ \(3\).svg);
+        width: 52px;
+        height: 30px;
+        background-repeat: no-repeat;
+    }
+    &__nav {
+        display: flex;
+    }
+    &__link {
+    width: 123px;
+    height: 70px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-decoration: none;
+    }
+    &__link:last-child {
+        width:  49px;
+    }
+}
+
+
+
+.main-bg {
+    background-image: url(/src/styles/image.png);
+    position: absolute;
+    width: 100%;
+    height: 1026px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    &__tonir {
+        background-image: url(./bg.svg);
+        position: absolute;
+        width: 1583px;
+        height: 1026px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    &__wraper{
+                padding: 280px 170px 0 170px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+            }
+
+
+
+            &__img {
+                display: flex;
+            } 
+                
+            &__AX {
+                color: #FFFFFF;
+                font-size: 74px;
+            }
+            &__IT {
+                color: #EC7979;
+                font-size: 74px;
+            }
+            
+        &__text {
+            margin: 72px 0 55px 0;
+            width: 615px;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 56px;
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+
+        &__border {
+            border-bottom: 1px solid #fff;
+            width: 171px;
+        }
+        &__h6 {
+            margin: 42px 0 42px 0;
+            width: 262px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;
+        }
+
+        &__btm {
+            Width: 263px;
+            Height: 58px;
+            border: 1px solid #fff;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+            color: #FFFFFF;
+            text-decoration: none;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        
+        
+        &__form {
+            background-color: #fff;
+            width: 470px;
+            height: 450px;  
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+
+
+            &__forms{
+                Width: 470px;
+                Height: 90px;
+                color: #333333;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 33px;
+                text-transform: uppercase;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+
+                samp {
+                    color: #EC7979;
+                    margin: 6px;
+                    font-size: 25px;
+                }
+            }
+            
+                &__padding {
+                    padding: 0 50px 0 50px;
+                }
+
+}
