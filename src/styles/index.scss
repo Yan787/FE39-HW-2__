@@ -716,6 +716,8 @@ body {
             height: 180px;
             background: #E2E2E2;
             border-radius: 10px;
+            padding: 0 0 0 23px;
+            box-sizing: border-box;
         }
         &__h5 {
             padding: 38px 0 37px 0;
@@ -728,5 +730,39 @@ body {
             align-items: center;
             justify-content: center;
             color: #86878B;
+        }
+
+        &__user {
+            display: flex;
+            flex-direction: row;
+            padding: 46px 0 0 0px;
+        }
+        &__ellipse {
+            width: 70px;
+            height: 70px;
+            background-image: url(./Ellipse\ 7.png);
+        }
+        &__name {
+            margin: 0 0 0 30px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 33px;
+            display: flex;
+            align-items: center;
+            text-transform: capitalize;
+            color: #000000;
+            width: 269px;
+            height: 54px;
+        }
+        &__h3 {
+            margin: 0 0 0 100px;
+            width: 270px;
+            height: 21px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            display: flex;
+            align-items: center;
+            color: #000000;
         }
 }
