@@ -9,10 +9,16 @@ body {
     font-family: OpenSans;
 }
 
+
+@media screen and (max-width: 1500px) and (min)
+    
+
+
 .header {
     background: #000000;
     padding: 0 170px 0 115px;
     height: 75px;
+
 
     &__wraper {
         display: flex;
@@ -70,7 +76,7 @@ body {
     &__tonir {
         background-image: url(./bg.svg);
         position: absolute;
-        width: 1583px;
+        width: 100%;
         height: 1026px;
         background-repeat: no-repeat;
         background-size: cover;
@@ -221,6 +227,7 @@ body {
         }
 
         .social {
+            justify-content: space-between;
             background: #F8EFEF;
             display: flex;
             position: relative;
@@ -1002,7 +1009,7 @@ body {
         background-image: url(./Vector\ \(2\).png);
     }
     &__img:nth-child(3) {
-        width: 55px;
+        width: 54px;
         height: 54px;
         color: #CCCCCC;
         background-image: url(./Vector\ \(3\).png);
@@ -1014,7 +1021,7 @@ body {
         background-image: url(./Vector\ \(4\).png);
     }
     &__img:nth-child(5) {
-        width: 55px;
+        width: 54px;
         height: 54px;
         color: #CCCCCC;
         background-image: url(./Vector\ \(5\).png);
