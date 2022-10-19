@@ -18,11 +18,11 @@
                         <div class="header__logo-AX"></div>
                     </div>
                     <nav class="header__nav">
-                        <a class="header__link" href="#">features</a>
-                        <a class="header__link" href="#">About</a>
-                        <a class="header__link" href="#">Pricing</a>
-                        <a class="header__link" href="#">Reviews</a>
-                        <a class="header__link" href="#">Contact</a>
+                        <a class="header__link" href="#1">features</a>
+                        <a class="header__link" href="#2">About</a>
+                        <a class="header__link" href="#3">Pricing</a>
+                        <a class="header__link" href="#4">Reviews</a>
+                        <a class="header__link" href="#5">Contact</a>
                     </nav>
                 </div>
             </div>
@@ -88,7 +88,7 @@
 
 
 
-        <section class="tabs">
+        <section id="1" class="tabs">
 
             <div class="tabs__btns">
                 <a class="tabs__tab tab1" href="#">TAB1</a>
@@ -96,8 +96,8 @@
                 <a class="tabs__tab tab3" href="#">TAB3</a>
                 <div class="tabs__borderhower"></div>
             </div>
-
-            <div class="tabs__wrap">
+            
+            <div  class="tabs__wrap">
                 <div class="tabs__box-one">
                     <h3 class="tabs__h3">Tabs with soft transitioning effect.</h3>
                     <p class="tabs__h5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Aenean <br>euismod <br>
@@ -116,7 +116,7 @@
                 </div>
             </div>
         </section>
-        <section class="about">
+        <section id="2" class="about">
             <h2 class="about__h4">WHY THIS IS AWESOME</h2>
            <div class="about__border-bottom"></div>
             <p class="about__h7">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -144,7 +144,7 @@
         </section>
 
 
-        <section class="pricing">
+        <section id="3" class="pricing">
             <h2 class="pricing__name">pricing options</h2>
             <div class="pricing__separator"></div>
             <p class="pricing__tex">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -185,7 +185,7 @@
                 </div>
             </div>
         </section>
-        <section class="reviews">
+        <section id="4" class="reviews">
             <h2 class="reviews__h2">what our customers are saying</h2>
             <div class="pricing__separator"></div>
             <p class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -235,20 +235,56 @@
                 </div>
             </div>
         </section>
-        <section class="banner">
+        <section id="5" class="banner">
             <h2 class="banner__h3">STYLISH AXURE DESIGN</h2>
             <div class="banner__border"></div>
             <p class="banner__text">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
             <a class="banner__btn" href="#">Download</a>
         </section>
+    
+
+
         <section class="Contact">
             <h2 class="Contact__h3">Contact</h2>
             <div class="Contact__border"></div>
             <p class="Contact__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         
-            <form action="#"></form>
+            <form action="#">
+                <div class="Contact__wraper">
+                    <div class="Contact__forms">
+                        <input class="Contact__name" placeholder="Name" name="name" required type="text">
+                        <div class="Contact__line"></div>
+                        <input class="Contact__email" pattern=".+@gmail.com" type="email" placeholder="Email" required name="Email" >
+                        <div class="Contact__line"></div>
+                        <input class="Contact__password" type="password" name="Password" placeholder="Password" required>
+                        <div class="Contact__line"></div>
+                    </div>
+                    <div class="Contact__message">
+                        <input class="Contact__messeges" type="text" name="text" placeholder="Message" required>
+                        <div class="Contact__line"></div>
+                    </div>
+                </div>
+                <input class="Contact__submit" value="Send Message" type="submit" name="submit">
+            </form>
         
         </section>
+
+
+
+        <footer class="footer">
+            
+            <div class="footer__icon">
+                <a class="footer__img" href="#"></a>
+                <a class="footer__img" href="#"></a>
+                <a class="footer__img" href="#"></a>
+                <a class="footer__img" href="#"></a>
+                <a class="footer__img" href="#"></a>
+                <a class="footer__img" href="#"></a>
+                <a class="footer__img" href="#"></a>
+                
+            </div>
+            <p class="footer__h5">© 2015 Axure Themes</p>
+        </footer>
     </main>
 </body>
 </html>
